@@ -21,21 +21,16 @@ body {
   position: relative;
   width: 600px;
 }
-/* .background-header {
-  width: 100%;
-} */
 .background-header {
   width: 100vw;
   height: 35vh;
 }
-
 .logo-icon {
   width: 13%;
   max-width: 50%;
   position: absolute;
   top: 80px;
   right: 350px;
-/* try to do align content center or margin: 0 auto;*/
 }
 h1 {
   text-align: center;
@@ -82,7 +77,6 @@ p {
   border-left: 1.9px solid hsl(233, 52%, 47%);
   border-bottom: 4.5px solid hsl(233, 52%, 47%);
   background-color: var(--Light-Blue);
-  /* box-shadow: 1px 5px 24px var(--Light-Blue); */
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
@@ -201,11 +195,6 @@ ul a {
   body {
     margin: 0 auto;
   }
-  /* .header-images {
-    width: 100vw;
-    overflow: hidden;
-    height: 10vh;
-  } */
   .background-header {
     width: 100vw;
     height: 35vh;
@@ -250,7 +239,6 @@ ul a {
   }
 }
 @media screen and (min-width: 1025px) {
-  /*px, %, rem, em, vh, vw*/
   * {
     margin: 0;
     padding: 0;
@@ -286,20 +274,14 @@ ul a {
   .mac-btn {
     padding: 0.7em 2.5em;
   }
-  .ios-btn {
-  }
-  .mac-btn {
-  }
   .computer-img {
     width: 100%;
     max-width: 50%;
-    /* display: block; */
     margin: 5rem 0;
   }
   .comp-text {
     display: flex;
     flex-direction: column;
-    /* margin-left: 15rem; */
     position: relative;
     display: flex;
   }
@@ -404,19 +386,8 @@ ul a {
   .clipboard p {
     font-size: 1rem;
   }
-  /* footer .logo {
-    width: 15%;
-    max-width: 5%;
-  }
-  .contact .logo-img {
-    width: 1.5%;
-  }
-  .logo-img {
-    margin: 7px;
-  } */
   .container {
-    max-width: 1170px;
-    /* background-color: brown; */
+    max-width: 1171px;
     margin: auto;
   }
   .row {
@@ -455,15 +426,10 @@ ul a {
   .col-2 {
     position: relative;
   }
-  /* .col-2 .footer-lists {
-    margin-bottom: 100px;
-  } */
   .footer-lists {
     position: absolute;
     bottom: 5rem;
     left: -10rem;
-    /* top: 10px;
-    right: 110px; */
   }
   .col-3 {
     position: relative;
@@ -475,9 +441,6 @@ ul a {
     position: absolute;
     top: 2rem;
     right: 20.5rem;
-    /* top: 70px;
-    right: 310px; */
-    /* Do columns columns for the list items. Watch that YouTube video and others start to finish first.*/
   }
   .footer-col .list5 {
     margin-left: -77px;
@@ -502,4 +465,3 @@ ul a {
     font-size: 13px;
   }
 }
-/* and (max-width: 1366px) */
