@@ -29,8 +29,9 @@ body {
   width: 13%;
   max-width: 50%;
   position: absolute;
-  top: 80px;
-  right: 350px;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 h1 {
   text-align: center;
@@ -200,23 +201,36 @@ ul a {
     height: 35vh;
   }
   .logo-parent {
-    position: relative;
-    width: 300px;
+    /* position: relative; */
+
   }
   .logo-icon {
     position: absolute;
-    top: -11rem;
-    left: 13rem;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
   }
   .no-br {
     display: none;
   }
+ .brk {
+    display: none;
+  }
+  /* .brk {
+    display: none;
+  } */
   h1 {
-    font-size: 9vw;
+    font-size: 10vw;
   }
   p,
   .track p {
-    font-size: 5vw;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-size: 19px;
+  }
+  .access {
+    color:red;
   }
   .ios-btn,
   .mac-btn {
@@ -260,10 +274,14 @@ ul a {
     height: 60vh;
   }
   .logo-icon {
-    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    /* position: absolute;
     top: 99%;
     left: 49%;
-    z-index: 0;
+    z-index: 0; */
   }
   .devices-parent {
     display: flex;
@@ -443,7 +461,12 @@ ul a {
     right: 20.5rem;
   }
   .footer-col .list5 {
-    margin-left: -77px;
+    margin-left: 0px;
+    background-color: black;
+    
+  }
+  .footer-lists-2 .list5 {
+    margin-left: 13px;
   }
   .footer-col .c-list {
     margin-left: 70px;
